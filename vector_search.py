@@ -30,3 +30,5 @@ for score, idx in zip(top_results[0], top_results[1]):
 print("\n")
 
 # 7. Optional: Using FAISS for large-scale search
+
+
