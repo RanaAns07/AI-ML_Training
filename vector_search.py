@@ -26,3 +26,5 @@ top_results = torch.topk(cosine_scores, k=5)
 print("\nQuery:", query)
 for score, idx in zip(top_results[0], top_results[1]):
     print(f"Score: {score:.4f} | Text: {texts[idx]}")
+
+print("\n")
