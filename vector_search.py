@@ -28,3 +28,5 @@ for score, idx in zip(top_results[0], top_results[1]):
     print(f"Score: {score:.4f} | Text: {texts[idx]}")
 
 print("\n")
+
+# 7. Optional: Using FAISS for large-scale search
